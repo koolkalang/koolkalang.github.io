@@ -12,6 +12,11 @@ a, p, li, ul{
 	font-family:Courier;
 
 }
+
+a:hover{
+	color:#ff0000;
+
+}
 ul{
 	text-align: left;
 		margin-left: 20%;

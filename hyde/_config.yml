@@ -1,0 +1,23 @@
+# Dependencies
+markdown:         redcarpet
+pygments:         true
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            Paolo Usero
+tagline:          'A Jekyll theme'
+description:      'I try to make things. <a href="mailto:paolo@usero.me">Email me</a>.'
+url:              http://usero.me/
+
+author:
+  name:           'Paolo Usero'
+  url:            http://usero.me/
+
+paginate:         5
+
+# Custom vars
+version:          1.0.0
+
+github:           https://github.com/koolkalang/

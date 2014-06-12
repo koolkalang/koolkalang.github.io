@@ -16,7 +16,7 @@ The actual screen cap is kind of useless, but it illustrates the fact that I can
 
 <img src="http://giant.gfycat.com/UnawareMinorDarklingbeetle.gif"/>
 
-<video width="320" height="240" controls>
+<video width="100%" height="948" controls>
 <source src="http://fat.gfycat.com/LivelyEmbarrassedAsiaticwildass.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>

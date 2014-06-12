@@ -232,7 +232,7 @@ img {
     overflow: hidden;
 }
 
-iframe {
+.video-container iframe {
   /*
   margin: 0 0 1rem;
   border-radius: 5px;

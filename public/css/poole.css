@@ -225,8 +225,14 @@ img {
   float:none;
 }
 
+.video-container {
+    position: relative;
+    padding-bottom: 123.4%;
+    height: 0;
+    overflow: hidden;
+}
 
-iframe {
+.video-confainer iframe {
   /*
   margin: 0 0 1rem;
   border-radius: 5px;
@@ -234,10 +240,11 @@ iframe {
   margin:0px;
   float:none;
 */
+  position: absolute;
+  top:0;
+  left: 0;
   width:100%;
   height:100%;
-
-  
 }
 
 

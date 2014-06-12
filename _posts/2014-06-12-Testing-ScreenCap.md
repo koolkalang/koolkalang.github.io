@@ -16,7 +16,7 @@ The actual screen cap is kind of useless, but it illustrates the fact that I can
 
 <img src="http://giant.gfycat.com/UnawareMinorDarklingbeetle.gif"/>
 <div class="video-container">
-<iframe src="http://gfycat.com/iframe/UnawareMinorDarklingbeetle" frameborder="0" scrolling="no" width="100%" height="948" ></iframe>
+<iframe src="http://gfycat.com/iframe/UnawareMinorDarklingbeetle" frameborder="0" scrolling="no" height="948" width="100%"  ></iframe>
 </div>
 -----
 

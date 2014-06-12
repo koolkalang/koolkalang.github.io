@@ -83,11 +83,11 @@ html {
   text-align: center;
   padding: 2rem 1rem;
   background-image: url('../images/imperialboy.jpg');
-  -webkit-filter: blur(5px);
-  -moz-filter: blur(5px);
-  -o-filter: blur(5px);
-  -ms-filter: blur(5px);
-  filter: blur(5px);
+  -webkit-filter: brightness(35%);
+  -moz-filter: brightness(35%);
+  -o-filter: brightness(35%);
+  -ms-filter: brightness(35%);
+  filter: brightness(35%);
 }
 
 /* Sidebar links */

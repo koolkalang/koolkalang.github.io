@@ -12,7 +12,7 @@ title: Testing Screen Capture on Windows 8.1
  4. github - post new .md file for blog and embed gfycat link.  
   
 
-The actual screen cap is kind of useless, but it illustrates the fact that I can actually screen cap between both desktop and metro apps seamlessly.   
+The actual screen cap is kind of useless, but it illustrates  the fact that I can actually screen cap between both desktop and metro apps seamlessly.   
 
 
 <script type"text/javascript" src="http://test.gfycat.com/gfycat_test_may18.js"></script>

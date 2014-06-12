@@ -224,21 +224,22 @@ img {
   margin:0px;
   float:none;
 }
-/*
+
 
 iframe {
+  /*
   margin: 0 0 1rem;
   border-radius: 5px;
-
-
-  width:100%;
-  height:100%;
   border:2px solid black;
   margin:0px;
   float:none;
+*/
+  width:100%;
+  height:100%;
+
   
 }
-*/
+
 
 /* Tables */
 table {

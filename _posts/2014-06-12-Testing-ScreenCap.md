@@ -16,6 +16,6 @@ The actual screen cap is kind of useless, but it illustrates the fact that I can
 
 
 <script type"text/javascript" src="http://test.gfycat.com/gfycat_test_may18.js"></script>
-<div class="video-container" class="gfyitem" data-title=false data-autoplay=true data-controls=true data-expand=true data-id="UnawareMinorDarklingbeetle" ></div> 
+<div class="gfyitem" data-title=false data-autoplay=true data-controls=true data-expand=true data-id="UnawareMinorDarklingbeetle" ></div> 
 -----
 

@@ -14,7 +14,7 @@ title: Testing Screen Capture on Windows 8.1
 
 The actual screen cap is kind of useless, but it illustrates the fact that I can actually screen cap between both desktop and metro apps seamlessly.   
 
-<iframe onload="resizeIframe(this)" src="http://gfycat.com/iframe/UnawareMinorDarklingbeetle" frameborder="0" scrolling="no"  width="768" height="948">
+<iframe onload="resizeIframe(this)" src="http://gfycat.com/iframe/UnawareMinorDarklingbeetle" frameborder="0" scrolling="no">
 </iframe>
 
 <script type="text/javascript">

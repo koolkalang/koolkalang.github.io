@@ -14,6 +14,9 @@ title: Testing Screen Capture on Windows 8.1
 
 The actual screen cap is kind of useless, but it illustrates the fact that I can actually screen cap between both desktop and metro apps seamlessly.   
 
+
+<script type"text/javascript" src="http://test.gfycat.com/gfycat_test_may18.js"></script>
+<div class="gfyitem" data-title=true data-autoplay=false data-controls=true data-expand=true data-id="UnawareMinorDarklingbeetle" ></div> 
 <img src="http://giant.gfycat.com/UnawareMinorDarklingbeetle.gif"/>
 
 <div class="video-container">

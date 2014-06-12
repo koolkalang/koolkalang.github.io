@@ -22,6 +22,5 @@ The actual screen cap is kind of useless, but it illustrates the fact that I can
 }(document, 'script'));
 </script>
 <img class="gfyitem" data-id="UnawareMinorDarklingbeetle" />
-
 -----
 

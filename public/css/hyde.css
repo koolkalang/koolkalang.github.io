@@ -68,10 +68,18 @@ html {
     width: 18rem;
     text-align: left;
   }
+    .bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 18rem;
+    text-align: left;
+  }
 }
 
 /* Sidebar background */
-.content:before {
+.bg {
   background-image: url('../images/imperialboy.jpg');
   -webkit-filter: blur(5px);
   -moz-filter: blur(5px);

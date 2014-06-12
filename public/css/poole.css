@@ -225,6 +225,18 @@ img {
   float:none;
 }
 
+iframe {
+  /*display: block;*/
+  margin: 0 0 1rem;
+  border-radius: 5px;
+
+  /* Blocks */
+  width:100%;
+  border:2px solid black;
+  margin:0px;
+  float:none;
+}
+
 /* Tables */
 table {
   margin-bottom: 1rem;

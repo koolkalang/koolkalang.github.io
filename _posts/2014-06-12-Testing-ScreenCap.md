@@ -15,9 +15,12 @@ title: Testing Screen Capture on Windows 8.1
 The actual screen cap is kind of useless, but it illustrates the fact that I can actually screen cap between both desktop and metro apps seamlessly.   
 
 <img src="http://giant.gfycat.com/UnawareMinorDarklingbeetle.gif"/>
-<div class="video-container">
-<iframe width="100%" height="948" src="http://gfycat.com/iframe/LivelyEmbarrassedAsiaticwildass" frameborder="0"  allowfullscreen></iframe>
-</div>
+
+<video width="320" height="240" controls>
+<source src="http://fat.gfycat.com/LivelyEmbarrassedAsiaticwildass.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 <div class="video-container">
 <iframe src="//player.vimeo.com/video/21151968" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="http://vimeo.com/21151968">Takuya Hosogane MotionReel 2011</a> from <a href="http://vimeo.com/hsgn">Takuya Hosogane</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 </div>

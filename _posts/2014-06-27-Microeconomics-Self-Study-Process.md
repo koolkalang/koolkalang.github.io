@@ -3,7 +3,7 @@ layout: post
 title: Microeconomics Self-Study Process
 ---
 
-So I just finished up a Micro-economics test, and I'm glad that's over. Don't follow what I did:
+So I just finished up a Micro-economics test, and I'm glad that's over. Don't follow what I did:  
 * Wallow in discomfort for a month or two.
 * Passively watch powerpoints, while thinking I'm being productive at *le Starbucks*
 * Procrastinate effervescently

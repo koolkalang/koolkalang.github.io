@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Microeconomics Self-Study Process
+tags:
+- process
 ---
 
 So I just finished up a Micro-economics test, and I'm glad that's over. Don't follow what I did:  

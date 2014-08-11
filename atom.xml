@@ -4,7 +4,7 @@
  <title>Paolo Usero</title>
  <link href="/atom.xml" rel="self"/>
  <link href="/"/>
- <updated>2014-08-10T20:03:49-04:00</updated>
+ <updated>2014-08-10T21:01:09-04:00</updated>
  <id></id>
  <author>
    <name>Paolo Usero</name>
@@ -13,11 +13,22 @@
 
  
  <entry>
-   <title>Test Template</title>
+   <title>Simplfying git</title>
    <link href="/2014/08/10/Template-Test/"/>
    <updated>2014-08-10T00:00:00-04:00</updated>
    <id>/2014/08/10/Template-Test</id>
-   <content type="html">&lt;p&gt;test template for posts.&lt;/p&gt;
+   <content type="html">&lt;p&gt;Not fully done, but I don&amp;#39;t have to type out git anymore.&lt;/p&gt;
+
+&lt;hr&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Simplfying git</title>
+   <link href="/2014/08/10/Simplyfying-Commands/"/>
+   <updated>2014-08-10T00:00:00-04:00</updated>
+   <id>/2014/08/10/Simplyfying-Commands</id>
+   <content type="html">&lt;p&gt;Not fully done, but I don&amp;#39;t have to type out git anymore.&lt;/p&gt;
 
 &lt;hr&gt;
 </content>

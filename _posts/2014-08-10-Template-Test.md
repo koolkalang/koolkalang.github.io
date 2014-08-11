@@ -1,11 +1,10 @@
 ---
 layout: post
-title: Test Template 
+title:  Simplfying git 
 tags:
 - personal
 ---
 
-test template for posts.
-
+Not fully done, but I don't have to type out git anymore.
 
 -----

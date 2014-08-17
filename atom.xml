@@ -4,7 +4,7 @@
  <title>Paolo Usero</title>
  <link href="/atom.xml" rel="self"/>
  <link href="/"/>
- <updated>2014-08-10T21:14:26-04:00</updated>
+ <updated>2014-08-17T10:17:41-04:00</updated>
  <id></id>
  <author>
    <name>Paolo Usero</name>
@@ -21,6 +21,14 @@
 
 &lt;hr&gt;
 </content>
+ </entry>
+ 
+ <entry>
+   <title>Streamlining Post Process</title>
+   <link href="/2014/08/10/Streamlining-Post-Process/"/>
+   <updated>2014-08-10T00:00:00-04:00</updated>
+   <id>/2014/08/10/Streamlining-Post-Process</id>
+   <content type="html"></content>
  </entry>
  
  <entry>

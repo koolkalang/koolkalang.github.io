@@ -28,6 +28,7 @@
   <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
   
   <!-- Scripts -->
+  <script language="JavaScript" type="text/javascript" src="/public/js/three.min.js"></script>
 </head>
 
 
@@ -121,17 +122,44 @@
     <div class="content container">
       <div class="page">
   <h1 class="page-title">3D</h1>
-  <script>function myFunction(){
-document.getElementById("demo").innerHTML = "Paragraph changed.";}
+  <div id="content"
+style="position: relative;
+padding-bottom:69%;
+height:0;
+overflow:hidden;">
+</div>
+
+<script>
+var content = document.getElementById('content');
+var renderer = new THREE.WebGLRenderer({alpha:true});
+renderer.setSize(content.style.Width, content.style.Height);
+content.appendChild(renderer.domElement);
+
+var scene = new THREE.Scene();
+var camera = new THREE.PerspectiveCamera(75, content.style.Width/content.style.Height, 0.1, 1000);
+            
+
+var geometry = new THREE.BoxGeometry(1,1,1);
+var material = new THREE.MeshBasicMaterial({color: 0x00ff00});
+var cube = new THREE.Mesh(geometry, material);
+scene.add(cube);
+
+camera.position.z = 5;
+
+var render = function () {
+    requestAnimationFrame(render);
+
+renderer.setSize(content.style.Width, content.style.Height);
+    cube.rotation.x += 0.1;
+    cube.rotation.y += 0.1;
+
+    renderer.render(scene, camera);
+};
+
+
+
+render();
 </script>
-
-<hr>
-
-<p id="demo"> A Paragraph.</p>
-
-<p><button type="button" onclick="myFunction()">Try it</button>
-<div>
-</div></p>
 
 </div>
 

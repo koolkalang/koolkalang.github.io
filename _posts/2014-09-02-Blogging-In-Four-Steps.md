@@ -1,5 +1,11 @@
-Blogging In Four Steps
-process python bash
+---
+layout: post
+title: Blogging In Four Steps
+tags:
+- process
+- python
+- bash
+---
 So, I did some work to try and streamline and take the headache out of pushing out a simple blog post. It involves a lot of aliases in .bashrc, and a rather crappy python script to automate the title posts.  
 
 * `post` -  brings up vim and opens a file simply called 'post'. The first line is reserved for the title, and the second line is for tags, seperated by spaces. The rest of the file is simply the blog content.  
@@ -10,3 +16,5 @@ So, I did some work to try and streamline and take the headache out of pushing o
 This is the first post that uses this new process fully, so I hope that this new process makes me a more productive blogger.  
 
 EDIT: This post and review workflow seems to work very well, I hope I can use this a lot more frequently.
+
+---

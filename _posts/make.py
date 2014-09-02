@@ -29,7 +29,7 @@ while True:
     if not buffer: break
     file.write(buffer)
 
-file.write("---")
+file.write("\n---")
 file.close()
 
 

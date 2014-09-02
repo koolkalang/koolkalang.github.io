@@ -4,13 +4,25 @@
  <title>Paolo Usero</title>
  <link href="/atom.xml" rel="self"/>
  <link href="/"/>
- <updated>2014-09-01T23:38:18-04:00</updated>
+ <updated>2014-09-02T02:54:30-04:00</updated>
  <id></id>
  <author>
    <name>Paolo Usero</name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>A Title For You</title>
+   <link href="/2014/09/02/A-Title-For-You/"/>
+   <updated>2014-09-02T00:00:00-04:00</updated>
+   <id>/2014/09/02/A-Title-For-You</id>
+   <content type="html">&lt;p&gt;I&amp;#39;m doing stuff right now in this file, to do things in this file.
+This is the second line in the content of the file. &lt;/p&gt;
+
+&lt;p&gt;I wonder what else I should be doing here.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Need a better process to this blog/site.</title>

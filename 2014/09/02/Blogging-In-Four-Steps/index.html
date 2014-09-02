@@ -10,7 +10,7 @@
 
   <title>
     
-      Need a better process to this blog/site. &middot; Paolo Usero
+      Blogging In Four Steps &middot; Paolo Usero
     
   </title>
 
@@ -129,11 +129,20 @@
 
     <div class="content container">
       <div class="post">
-  <h1 class="post-title">Need a better process to this blog/site.</h1>
-  <span class="post-date">01 Sep 2014</span>
-  <p>So, my current workflow is a bit bothersome, and it&#39;s a pain to just publish a blog post. Default github pages have it easy because you can publish things right on the github website, but I want my plugins, which won&#39;t work with default github. That means that I have to build my site locally first on my machine, and then move that &#39;build&#39; into the master branch.</p>
+  <h1 class="post-title">Blogging In Four Steps</h1>
+  <span class="post-date">02 Sep 2014</span>
+  <p>So, I did some work to try and streamline and take the headache out of pushing out a simple blog post. It involves a lot of aliases in .bashrc, and a rather crappy python script to automate the title posts.  </p>
 
-<p>I&#39;ve simplified a lot of the git commands, so instead of typing <code>git commit -m &quot;message&quot;</code>, I just use <code>commit &quot;message&quot;</code>. I guess I need to write something that will automatically rename the filename of this file, since that&#39;s the part that annoys me the most, maybe write it in python or something.  I can also do a lot more to chain the aliases together and make that process simpler. </p>
+<ul>
+<li><code>post</code> -  brings up vim and opens a file simply called &#39;post&#39;. The first line is reserved for the title, and the second line is for tags, seperated by spaces. The rest of the file is simply the blog content.<br></li>
+<li><code>review</code> - This opens up a localhost version of the blog, and does a python script and a few git commands to get the source ready for commit.<br></li>
+<li><code>commit</code> - This is just a regular commit, but it needs a message with it to compile. I figured the comments on the source branch  would matter more than the commits on the master branch, so I just abstracted the master commit branch away in aliases.<br></li>
+<li><code>push</code> - Does a lot of the heavy lifting - it moves the generated _site foler to the master branch, automatically commits that, and pushes both the master and source branches.<br></li>
+</ul>
+
+<p>This is the first post that uses this new process fully, so I hope that this new process makes me a more productive blogger.  </p>
+
+<p>EDIT: This post and review workflow seems to work very well, I hope I can use this a lot more frequently.</p>
 
 <hr>
 
@@ -145,8 +154,8 @@
     
       <li>
         <h3>
-          <a href="/2014/09/02/Blogging-In-Four-Steps/">
-            Blogging In Four Steps
+          <a href="/2014/09/02/A-Title-For-You/">
+            A Title For You
             <small>02 Sep 2014</small>
           </a>
         </h3>
@@ -154,9 +163,9 @@
     
       <li>
         <h3>
-          <a href="/2014/09/02/A-Title-For-You/">
-            A Title For You
-            <small>02 Sep 2014</small>
+          <a href="/2014/09/01/Need-Easier-Process/">
+            Need a better process to this blog/site.
+            <small>01 Sep 2014</small>
           </a>
         </h3>
       </li>

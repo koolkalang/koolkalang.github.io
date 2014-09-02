@@ -112,6 +112,10 @@
           
         
       
+        
+          
+        
+      
 
       <!--<li class="sidebar-nav-item"><a href="/archive/v1.0.0.zip">Download</a></li>-->
       <li class="sidebar-nav-item"><a href="">GitHub</a></li>
@@ -125,6 +129,43 @@
 
     <div class="content container">
       <div class="posts">
+  
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="/2014/09/02/Blogging-In-Four-Steps/">
+        Blogging In Four Steps
+      </a>
+    </h1>
+
+    <span class="post-info">02 Sep 2014 
+  	
+	<a class="tag" href="tag/process/index.html">process</a>
+  	
+	<a class="tag" href="tag/python/index.html">python</a>
+  	
+	<a class="tag" href="tag/bash/index.html">bash</a>
+  	
+	</span>
+    
+
+    <p>So, I did some work to try and streamline and take the headache out of pushing out a simple blog post. It involves a lot of aliases in .bashrc, and a rather crappy python script to automate the title posts.  </p>
+
+<ul>
+<li><code>post</code> -  brings up vim and opens a file simply called &#39;post&#39;. The first line is reserved for the title, and the second line is for tags, seperated by spaces. The rest of the file is simply the blog content.<br></li>
+<li><code>review</code> - This opens up a localhost version of the blog, and does a python script and a few git commands to get the source ready for commit.<br></li>
+<li><code>commit</code> - This is just a regular commit, but it needs a message with it to compile. I figured the comments on the source branch  would matter more than the commits on the master branch, so I just abstracted the master commit branch away in aliases.<br></li>
+<li><code>push</code> - Does a lot of the heavy lifting - it moves the generated _site foler to the master branch, automatically commits that, and pushes both the master and source branches.<br></li>
+</ul>
+
+<p>This is the first post that uses this new process fully, so I hope that this new process makes me a more productive blogger.  </p>
+
+<p>EDIT: This post and review workflow seems to work very well, I hope I can use this a lot more frequently.</p>
+
+<hr>
+
+  </div>
+  
   
   
   
@@ -178,46 +219,6 @@
 <p>So, this is my first real post on this site. Whatever I&#39;m making that&#39;s presentable, may end up here in the future. We&#39;ll see what happens! </p>
 
 <p><img src="../public/images/Godzilla_Beach.png"/></p>
-
-<hr>
-
-  </div>
-  
-  
-  
-  <div class="post">
-    <h1 class="post-title">
-      <a href="/2014/06/27/Microeconomics-Self-Study-Process/">
-        Microeconomics Self-Study Process
-      </a>
-    </h1>
-
-    <span class="post-info">27 Jun 2014 
-  	
-	<a class="tag" href="tag/process/index.html">process</a>
-  	
-	</span>
-    
-
-    <p>So I just finished up a Micro-economics test, and I&#39;m glad that&#39;s over. Don&#39;t follow what I did:  </p>
-
-<ul>
-<li>Wallow in discomfort for a month or two.<br></li>
-<li>Passively watch powerpoints, while thinking I&#39;m being productive at <em>le Starbucks</em><br></li>
-<li>Procrastinate effervescently<br></li>
-</ul>
-
-<p>What did work however, toward the end of the studying stint, was taking the tests and seeing feedback either immediately 
-or right after taking the test: I got to hone in ambgiguity much quicker, and things started clicking much faster.</p>
-
-<p>All along this process, I was trying to implement what the internet has collectively taught me on how to study, and I could hardly
-figure out what was wrong until I noticed something: There were a lot of &#39;entry&#39; points to the subject matter, but from
-those entry points I couldn&#39;t really get my head into the right thought process. If worded or presented differently I would
-get it, but not from random jumping points. This may or may not prove to be important in the future, but we&#39;ll see.</p>
-
-<p>Well it&#39;s time to focus on the next set of challenges. I&#39;m slowly getting to a good operational point, where new things that come up can be easily handled and
-I can maintain good progress in existing projects. This site, Trello, Syncing Email and Windows, github, bitbucket all funnel into this &#39;goal&#39;, and I hope that
-I can get to that elusive &#39;goal&#39; sooner rather than later.</p>
 
 <hr>
 

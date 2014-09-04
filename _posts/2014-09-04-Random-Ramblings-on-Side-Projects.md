@@ -1,5 +1,13 @@
-Random Ramblings on Side Projects
-process cinema4d aftereffects 3d 2d
+---
+layout: post
+title: Random Ramblings on Side Projects
+tags:
+- process
+- cinema4d
+- aftereffects
+- 3d
+- 2d
+---
 This post is really just writing practice, so don't read into it too much. It's kind of bland, but you get an idea of what I like in motion design. 
 
 I've really wanted to sink my teeth into both Cinema4D and After Effects, because the stuff people pump out on them just look visually stunning. Practically speaking, the market is saturated with people who know both programs, and so I'm only wanting to learn both programs because I want to make something like what I've been seeing online for the past few years. 
@@ -33,3 +41,5 @@ Even though it's been years since I first got exposed to them, I've barely worke
 <center>
 <iframe width="560" height="315" src="//www.youtube.com/embed/1K5micMvsSg?list=UUBfwtcQ5JHx7lkORSLKA3Yg" frameborder="0" allowfullscreen></iframe>
 </center>
+
+---

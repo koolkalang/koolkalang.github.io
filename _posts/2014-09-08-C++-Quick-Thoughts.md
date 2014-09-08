@@ -1,5 +1,10 @@
-C++ Quick Thoughts
-process c++
+---
+layout: post
+title: C++ Quick Thoughts
+tags:
+- process
+- c++
+---
 ### C++ 
 * the `delete` operator doesn't actually delete the object - it merely calls the desturctor, and tells the allocator that memory is free.
 * For certain functions, apparently `Test::helloWorld(test); == test->helloWorld();` is valid, I'll have to look into this further, not quite sure what implications are for this.
@@ -50,3 +55,5 @@ int main() {
 * learning about c++ doesn't mean that work is actually getting done on the project. 
 * I should probably work on the individual functions separately first, and then refactor them into a class later if I have time.
 * I spend 30 minutes researching why git couldn't connect to github.com, assuming it was a proxy issue. Turns out my laptop wasn't connected to the internet. Such a smart cookie I am. 
+
+---

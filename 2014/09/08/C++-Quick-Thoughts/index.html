@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>
+    
+      C++ Quick Thoughts &middot; Paolo Usero
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/public/css/poole.css">
+  <link rel="stylesheet" href="/public/css/syntax.css">
+  <link rel="stylesheet" href="/public/css/hyde.css">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-144-precomposed.png">
+                                 <link rel="shortcut icon" href="/public/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+  
+  <!-- Scripts -->
+</head>
+
+
+  <body>
+
+    <div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <h1>Paolo Usero</h1>
+      <p class="lead">I try to make things. <a href="paolousero@gmail.com">Email me</a>.</p>
+    </div>
+
+    <ul class="sidebar-nav">
+      <li class="sidebar-nav-item">
+        <a href="/">Home</a>
+      </li>
+
+      
+
+      
+      
+        
+          
+            <li class="sidebar-nav-item">
+              <a href="/3d/">3D</a>
+            </li>
+          
+        
+      
+        
+          
+        
+      
+        
+          
+            <li class="sidebar-nav-item">
+              <a href="/archive/">Archive</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="sidebar-nav-item">
+              <a href="/art/">Art</a>
+            </li>
+          
+        
+      
+        
+      
+        
+          
+            <li class="sidebar-nav-item">
+              <a href="/calendar/">Calendar</a>
+            </li>
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+
+      <!--<li class="sidebar-nav-item"><a href="/archive/v1.0.0.zip">Download</a></li>-->
+      <li class="sidebar-nav-item"><a href="">GitHub</a></li>
+      <!--<li class="sidebar-nav-item">Currently v1.0.0</li>-->
+    </ul>
+
+    <p>&copy; 2014. All rights reserved.</p>
+  </div>
+</div>
+
+
+    <div class="content container">
+      <div class="post">
+  <h1 class="post-title">C++ Quick Thoughts</h1>
+  <span class="post-date">08 Sep 2014</span>
+  <h3>C++</h3>
+
+<ul>
+<li>the <code>delete</code> operator doesn&#39;t actually delete the object - it merely calls the desturctor, and tells the allocator that memory is free.</li>
+<li>For certain functions, apparently <code>Test::helloWorld(test); == test-&gt;helloWorld();</code> is valid, I&#39;ll have to look into this further, not quite sure what implications are for this.</li>
+<li>C++11 - use unique_ptr so that you don&#39;t have to delete afterwards.</li>
+</ul>
+<div class="highlight"><pre><code class="language-c++" data-lang="c++"><span class="cp">#include &lt;iostream&gt;</span>
+<span class="cp">#include &lt;memory&gt;</span>
+
+<span class="k">struct</span> <span class="n">foo</span>
+<span class="p">{</span>
+    <span class="n">foo</span><span class="p">()</span> <span class="p">{</span> <span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&quot;constructing&quot;</span> <span class="o">&lt;&lt;</span> <span class="n">std</span><span class="o">::</span><span class="n">endl</span><span class="p">;</span> <span class="p">}</span>
+    <span class="o">~</span><span class="n">foo</span><span class="p">()</span> <span class="p">{</span> <span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&quot;destructing&quot;</span> <span class="o">&lt;&lt;</span> <span class="n">std</span><span class="o">::</span><span class="n">endl</span><span class="p">;</span> <span class="p">}</span>
+<span class="p">};</span>
+
+<span class="kt">int</span> <span class="nf">main</span><span class="p">()</span>
+<span class="p">{</span>
+    <span class="n">std</span><span class="o">::</span><span class="n">unique_ptr</span><span class="o">&lt;</span><span class="n">foo</span><span class="o">&gt;</span> <span class="n">p</span><span class="p">(</span><span class="k">new</span> <span class="n">foo</span><span class="p">);</span>
+    <span class="c1">// no need to remember to delete p</span>
+    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div>
+<ul>
+<li>This really confused me - once you initialize an object that has functions, those functions are slightly independent of the object/class. I&#39;ll have to dig deeper into this, because I am not entirely sure about the specifics. </li>
+</ul>
+<div class="highlight"><pre><code class="language-c++" data-lang="c++"><span class="cp">#include &lt;iostream&gt;</span>
+<span class="cp">#include &lt;functional&gt;</span>
+
+<span class="k">struct</span> <span class="n">Test</span> <span class="p">{</span>
+    <span class="kt">void</span> <span class="n">helloWorld</span><span class="p">()</span> <span class="p">{</span>
+        <span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&quot;Hello, &quot;</span><span class="o">&lt;&lt;</span> <span class="k">this</span><span class="o">-&gt;</span><span class="n">me</span> <span class="o">&lt;&lt;</span> <span class="s">&quot;!&quot;</span> <span class="o">&lt;&lt;</span> <span class="n">std</span><span class="o">::</span><span class="n">endl</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="n">std</span><span class="o">::</span><span class="n">string</span> <span class="n">me</span> <span class="o">=</span> <span class="s">&quot;World&quot;</span><span class="p">;</span>
+<span class="p">};</span>
+
+<span class="kt">int</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+    <span class="n">std</span><span class="o">::</span><span class="n">function</span><span class="o">&lt;</span><span class="kt">void</span><span class="p">(</span><span class="n">Test</span> <span class="o">*</span><span class="p">)</span><span class="o">&gt;</span> <span class="n">helloWorld</span> <span class="o">=</span> <span class="o">&amp;</span><span class="n">Test</span><span class="o">::</span><span class="n">helloWorld</span><span class="p">;</span>
+
+    <span class="n">Test</span> <span class="n">test</span><span class="p">;</span>
+    <span class="n">helloWorld</span><span class="p">(</span><span class="o">&amp;</span><span class="n">test</span><span class="p">);</span>
+
+    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div>
+<h3>assumptions</h3>
+
+<ul>
+<li>learning about c++ doesn&#39;t mean that work is actually getting done on the project. </li>
+<li>I should probably work on the individual functions separately first, and then refactor them into a class later if I have time.</li>
+<li>I spend 30 minutes researching why git couldn&#39;t connect to github.com, assuming it was a proxy issue. Turns out my laptop wasn&#39;t connected to the internet. Such a smart cookie I am. </li>
+</ul>
+
+<hr>
+
+</div>
+
+<div class="related">
+  <h2>Related Posts</h2>
+  <ul class="related-posts">
+    
+      <li>
+        <h3>
+          <a href="/2014/09/04/Random-Ramblings-on-Side-Projects/">
+            Random Ramblings on Side Projects
+            <small>04 Sep 2014</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/2014/09/02/Blogging-In-Four-Steps/">
+            Blogging In Four Steps
+            <small>02 Sep 2014</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/2014/09/02/A-Title-For-You/">
+            A Title For You
+            <small>02 Sep 2014</small>
+          </a>
+        </h3>
+      </li>
+    
+  </ul>
+</div>
+
+    </div>
+
+  </body>
+</html>

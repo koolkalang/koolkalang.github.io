@@ -55,9 +55,13 @@
       
         
           
-            <li class="sidebar-nav-item">
-              <a href="/CPSC6040/">CPSC 6040</a>
-            </li>
+        
+      
+        
+          
+        
+      
+        
           
         
       
@@ -136,6 +140,100 @@
         
       
 		<br>
+      
+      
+        
+          
+        
+      
+        
+          
+            <li class="sidebar-nav-item">
+              <a href="/ART8210/">ART 8210</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="sidebar-nav-item">
+              <a href="/CPSC6040/">CPSC 6040</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="sidebar-nav-item">
+              <a href="/CPSC8150/">CPSC 8150</a>
+            </li>
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+
+		<br>
       <!--<li class="sidebar-nav-item"><a href="/archive/v1.0.0.zip">Download</a></li>-->
       <li class="sidebar-nav-item"><a href="">GitHub</a></li>
       <!--<li class="sidebar-nav-item">Currently v1.0.0</li>-->
@@ -148,82 +246,6 @@
 
     <div class="content container">
       <div class="posts">
-  
-  
-  <div class="post">
-    <h1 class="post-title">
-      <a href="/2014/09/14/C++-Quick-Thoughts/">
-        C++ Quick Thoughts
-      </a>
-    </h1>
-
-    <span class="post-info">14 Sep 2014 
-  	
-	<a class="tag" href="tag/process/index.html">process</a>
-  	
-	<a class="tag" href="tag/c++/index.html">c++</a>
-  	
-	</span>
-    
-
-    <h3>C++</h3>
-
-<ul>
-<li>the <code>delete</code> operator doesn&#39;t actually delete the object - it merely calls the desturctor, and tells the allocator that memory is free.</li>
-<li>For certain functions, apparently <code>Test::helloWorld(test); == test-&gt;helloWorld();</code> is valid, I&#39;ll have to look into this further, not quite sure what implications are for this.</li>
-<li>C++11 - use unique_ptr so that you don&#39;t have to delete afterwards.</li>
-</ul>
-<div class="highlight"><pre><code class="language-c++" data-lang="c++"><span class="cp">#include &lt;iostream&gt;</span>
-<span class="cp">#include &lt;memory&gt;</span>
-
-<span class="k">struct</span> <span class="n">foo</span>
-<span class="p">{</span>
-    <span class="n">foo</span><span class="p">()</span> <span class="p">{</span> <span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&quot;constructing&quot;</span> <span class="o">&lt;&lt;</span> <span class="n">std</span><span class="o">::</span><span class="n">endl</span><span class="p">;</span> <span class="p">}</span>
-    <span class="o">~</span><span class="n">foo</span><span class="p">()</span> <span class="p">{</span> <span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&quot;destructing&quot;</span> <span class="o">&lt;&lt;</span> <span class="n">std</span><span class="o">::</span><span class="n">endl</span><span class="p">;</span> <span class="p">}</span>
-<span class="p">};</span>
-
-<span class="kt">int</span> <span class="nf">main</span><span class="p">()</span>
-<span class="p">{</span>
-    <span class="n">std</span><span class="o">::</span><span class="n">unique_ptr</span><span class="o">&lt;</span><span class="n">foo</span><span class="o">&gt;</span> <span class="n">p</span><span class="p">(</span><span class="k">new</span> <span class="n">foo</span><span class="p">);</span>
-    <span class="c1">// no need to remember to delete p</span>
-    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
-<span class="p">}</span>
-</code></pre></div>
-<ul>
-<li>This really confused me - once you initialize an object that has functions, those functions are slightly independent of the object/class. I&#39;ll have to dig deeper into this, because I am not entirely sure about the specifics. </li>
-</ul>
-<div class="highlight"><pre><code class="language-c++" data-lang="c++"><span class="cp">#include &lt;iostream&gt;</span>
-<span class="cp">#include &lt;functional&gt;</span>
-
-<span class="k">struct</span> <span class="n">Test</span> <span class="p">{</span>
-    <span class="kt">void</span> <span class="n">helloWorld</span><span class="p">()</span> <span class="p">{</span>
-        <span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&quot;Hello, &quot;</span><span class="o">&lt;&lt;</span> <span class="k">this</span><span class="o">-&gt;</span><span class="n">me</span> <span class="o">&lt;&lt;</span> <span class="s">&quot;!&quot;</span> <span class="o">&lt;&lt;</span> <span class="n">std</span><span class="o">::</span><span class="n">endl</span><span class="p">;</span>
-    <span class="p">}</span>
-
-    <span class="n">std</span><span class="o">::</span><span class="n">string</span> <span class="n">me</span> <span class="o">=</span> <span class="s">&quot;World&quot;</span><span class="p">;</span>
-<span class="p">};</span>
-
-<span class="kt">int</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
-    <span class="n">std</span><span class="o">::</span><span class="n">function</span><span class="o">&lt;</span><span class="kt">void</span><span class="p">(</span><span class="n">Test</span> <span class="o">*</span><span class="p">)</span><span class="o">&gt;</span> <span class="n">helloWorld</span> <span class="o">=</span> <span class="o">&amp;</span><span class="n">Test</span><span class="o">::</span><span class="n">helloWorld</span><span class="p">;</span>
-
-    <span class="n">Test</span> <span class="n">test</span><span class="p">;</span>
-    <span class="n">helloWorld</span><span class="p">(</span><span class="o">&amp;</span><span class="n">test</span><span class="p">);</span>
-
-    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
-<span class="p">}</span>
-</code></pre></div>
-<h3>assumptions</h3>
-
-<ul>
-<li>learning about c++ doesn&#39;t mean that work is actually getting done on the project. </li>
-<li>I should probably work on the individual functions separately first, and then refactor them into a class later if I have time.</li>
-<li>I spend 30 minutes researching why git couldn&#39;t connect to github.com, assuming it was a proxy issue. Turns out my laptop wasn&#39;t connected to the internet. Such a smart cookie I am. </li>
-</ul>
-
-<hr>
-
-  </div>
-  
   
   
   <div class="post">
@@ -536,11 +558,13 @@ I can get to that elusive &#39;goal&#39; sooner rather than later.</p>
   </div>
   
   
+  
+  
 </div>
 
 <div class="pagination">
   
-    <a class="pagination-item older" href="/page2">Older</a>
+    <span class="pagination-item older">Older</span>
   
   
     <span class="pagination-item newer">Newer</span>

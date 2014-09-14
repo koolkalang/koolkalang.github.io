@@ -7,8 +7,12 @@ for filename in os.listdir("."):
         post = open(filename)
         break
 
+
 # extract parts
 line = (post.readline()).rstrip('\r\n')
+print line
+if not line.strip():
+	exit()
 tags = (post.readline()).rstrip('\r\n')
 date =  time.strftime("%Y-%m-%d-")
 title = re.sub('[ ]', '-', line)

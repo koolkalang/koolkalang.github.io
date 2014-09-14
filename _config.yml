@@ -20,3 +20,5 @@ paginate:         10
 version:          1.0.0
 
 github:           https://github.com/koolkalang/
+gems:
+- jekyll-redirect-from

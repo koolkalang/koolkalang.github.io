@@ -4,13 +4,46 @@
  <title>Paolo Usero</title>
  <link href="/atom.xml" rel="self"/>
  <link href="/"/>
- <updated>2014-09-14T16:48:56-04:00</updated>
+ <updated>2014-09-20T17:52:48-04:00</updated>
  <id></id>
  <author>
    <name>Paolo Usero</name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>Test CPSC8150</title>
+   <link href="/2014/09/20/Test-CPSC8150/"/>
+   <updated>2014-09-20T00:00:00-04:00</updated>
+   <id>/2014/09/20/Test-CPSC8150</id>
+   <content type="html">&lt;p&gt;Testing Compositing page. &lt;/p&gt;
+
+&lt;hr&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Test CPSC6040</title>
+   <link href="/2014/09/20/Test-CPSC6040/"/>
+   <updated>2014-09-20T00:00:00-04:00</updated>
+   <id>/2014/09/20/Test-CPSC6040</id>
+   <content type="html">&lt;p&gt;Testing computer graphics images page.&lt;/p&gt;
+
+&lt;hr&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Test ART8210</title>
+   <link href="/2014/09/20/Test-ART8210/"/>
+   <updated>2014-09-20T00:00:00-04:00</updated>
+   <id>/2014/09/20/Test-ART8210</id>
+   <content type="html">&lt;p&gt;Testing Visual Narrative page.&lt;/p&gt;
+
+&lt;hr&gt;
+</content>
+ </entry>
  
  <entry>
    <title>C++ Quick Thoughts</title>
@@ -70,6 +103,9 @@
 &lt;li&gt;I should probably work on the individual functions separately first, and then refactor them into a class later if I have time.&lt;/li&gt;
 &lt;li&gt;I spend 30 minutes researching why git couldn&amp;#39;t connect to github.com, assuming it was a proxy issue. Turns out my laptop wasn&amp;#39;t connected to the internet. Such a smart cookie I am. &lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;p&gt;&lt;br&gt;
+&lt;br&gt;&lt;/p&gt;
 
 &lt;hr&gt;
 </content>
@@ -184,7 +220,7 @@ This is the second line in the content of the file. &lt;/p&gt;
 
 &lt;p&gt;So, this is my first real post on this site. Whatever I&amp;#39;m making that&amp;#39;s presentable, may end up here in the future. We&amp;#39;ll see what happens! &lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;../public/images/Godzilla_Beach_Resized.png&quot;/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/public/images/Godzilla_Beach_Resized.png&quot;/&gt;&lt;/p&gt;
 
 &lt;hr&gt;
 </content>
@@ -253,6 +289,12 @@ I can get to that elusive &amp;#39;goal&amp;#39; sooner rather than later.&lt;/p
    <updated>2014-05-26T00:00:00-04:00</updated>
    <id>/2014/05/26/Godzilla-Beach</id>
    <content type="html">&lt;p&gt;This is just a quick test to find out if the personal tags works as it should. If you find this page, it&amp;#39;s okay, it&amp;#39;s not entirely private, but I&amp;#39;d rather not have this stuff clutter up the front page. It&amp;#39;ll probably mostly just introspectives on my current projects and will be more diary/journal like, in contrast to the front page which I want to be more explanatory and structured.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;hr&gt;
+
+&lt;hr&gt;
 
 &lt;hr&gt;
 </content>

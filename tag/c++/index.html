@@ -139,99 +139,104 @@
           
         
       
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
 		<br>
-      
-      
-        
-          
-        
-      
-        
-          
             <li class="sidebar-nav-item">
-              <a href="/ART8210/">ART 8210</a>
+              <a href="/tags/CPSC6040/index.html">CPSC6040</a>
             </li>
-          
-        
-      
-        
-          
             <li class="sidebar-nav-item">
-              <a href="/CPSC6040/">CPSC 6040</a>
+              <a href="/tags/CPSC8150/index.html">CPSC8150</a>
             </li>
-          
-        
-      
-        
-          
             <li class="sidebar-nav-item">
-              <a href="/CPSC8150/">CPSC 8150</a>
+              <a href="/tags/ART8210/index.html">ART8210</a>
             </li>
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
 
 		<br>
       <!--<li class="sidebar-nav-item"><a href="/archive/v1.0.0.zip">Download</a></li>-->
@@ -245,17 +250,17 @@
 
 
     <div class="content container">
-      <h2 class="post_title">Posts Tagged &ldquo;c++&rdquo;</h2>
-<ul>
+      <!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+
+
+<h2 class="post_title">Posts Tagged &ldquo;c++&rdquo;</h2>
+<hr />
   
   
   
   
   
-  <li class="archive_list">
-    <time style="color:#666;font-size:11px;" datetime='2014-09-08'>09/08/14</time> <a class="archive_list_article_link" href='/2014/09/08/C++-Quick-Thoughts/'>C++ Quick Thoughts</a>
-    <p class="summary">
-  </li>
   
   
   
@@ -277,9 +282,77 @@
   
   
   
+<div class="post">
+  <h1 class="post-title">
+	<a href="/2014/09/08/C++-Quick-Thoughts/">
+	  C++ Quick Thoughts
+	</a>
+  </h1>
+
+  <span class="post-date">08 Sep 2014</span>
   
+	<a class="tag" href="/tags/process/index.html">process</a>
   
+	<a class="tag" href="/tags/c++/index.html">c++</a>
   
+  ### C++ 
+* the `delete` operator doesn't actually delete the object - it merely calls the desturctor, and tells the allocator that memory is free.
+* For certain functions, apparently `Test::helloWorld(test); == test->helloWorld();` is valid, I'll have to look into this further, not quite sure what implications are for this.
+* C++11 - use unique_ptr so that you don't have to delete afterwards.
+
+```c++
+#include <iostream>
+#include <memory>
+
+struct foo
+{
+	foo() { std::cout << "constructing" << std::endl; }
+	~foo() { std::cout << "destructing" << std::endl; }
+};
+
+int main()
+{
+	std::unique_ptr<foo> p(new foo);
+	// no need to remember to delete p
+	return 0;
+}
+```
+* This really confused me - once you initialize an object that has functions, those functions are slightly independent of the object/class. I'll have to dig deeper into this, because I am not entirely sure about the specifics. 
+
+```c++
+#include <iostream>
+#include <functional>
+
+struct Test {
+	void helloWorld() {
+		std::cout << "Hello, "<< this->me << "!" << std::endl;
+	}
+	
+	std::string me = "World";
+};
+
+int main() {
+	std::function<void(Test *)> helloWorld = &Test::helloWorld;
+	
+	Test test;
+	helloWorld(&test);
+	
+	return 0;
+}
+```
+
+### assumptions 
+* learning about c++ doesn't mean that work is actually getting done on the project. 
+* I should probably work on the individual functions separately first, and then refactor them into a class later if I have time.
+* I spend 30 minutes researching why git couldn't connect to github.com, assuming it was a proxy issue. Turns out my laptop wasn't connected to the internet. Such a smart cookie I am. 
+
+
+<br>
+<br>
+
+---
+
+</div>
   
   
   
@@ -317,7 +390,40 @@
   
   
   
-</ul>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+<div class="pagination">
+  
+    <span class="pagination-item older">Older</span>
+  
+  
+    <span class="pagination-item newer">Newer</span>
+  
+</div>
 
     </div>
 

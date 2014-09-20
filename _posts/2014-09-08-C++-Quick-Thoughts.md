@@ -56,4 +56,8 @@ int main() {
 * I should probably work on the individual functions separately first, and then refactor them into a class later if I have time.
 * I spend 30 minutes researching why git couldn't connect to github.com, assuming it was a proxy issue. Turns out my laptop wasn't connected to the internet. Such a smart cookie I am. 
 
+
+<br>
+<br>
+
 ---

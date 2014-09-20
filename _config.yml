@@ -14,7 +14,7 @@ author:
   name:           'Paolo Usero'
   url:            http://usero.me/
 
-paginate:         10
+paginate:         4
 
 # Custom vars
 version:          1.0.0

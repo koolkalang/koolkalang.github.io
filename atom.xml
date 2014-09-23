@@ -4,13 +4,34 @@
  <title>Paolo Usero</title>
  <link href="/atom.xml" rel="self"/>
  <link href="/"/>
- <updated>2014-09-20T18:11:38-04:00</updated>
+ <updated>2014-09-23T13:51:05-04:00</updated>
  <id></id>
  <author>
    <name>Paolo Usero</name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>Project 1 - Composited Stills</title>
+   <link href="/2014/09/23/Project-1---Composited-Stills/"/>
+   <updated>2014-09-23T00:00:00-04:00</updated>
+   <id>/2014/09/23/Project-1---Composited-Stills</id>
+   <content type="html">&lt;h3&gt;Live on Live&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://i.imgur.com/EshUhUK.jpg&quot;&gt;&lt;img src=&quot;http://i.imgur.com/EshUhUK.jpg&quot;/&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3&gt;CG on Live&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://i.imgur.com/vvHv1vx.jpg&quot;&gt;&lt;img src=&quot;http://i.imgur.com/vvHv1vx.jpg&quot;/&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3&gt;Live on CG&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://i.imgur.com/NMZK75W.jpg&quot;&gt;&lt;img src=&quot;http://i.imgur.com/NMZK75W.jpg&quot;/&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Test CPSC8150</title>

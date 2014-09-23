@@ -1,5 +1,12 @@
-Project 1 - Composited Stills
-DPA8150 compositing nuke maya 
+---
+layout: post
+title: Project 1 - Composited Stills
+tags:
+- DPA8150
+- compositing
+- nuke
+- maya
+---
 
 ###Live on Live
 <a href="http://i.imgur.com/EshUhUK.jpg"><img src="http://i.imgur.com/EshUhUK.jpg"/></a>
@@ -9,3 +16,5 @@ DPA8150 compositing nuke maya
 
 ###Live on CG
 <a href="http://i.imgur.com/NMZK75W.jpg"><img src="http://i.imgur.com/NMZK75W.jpg"/></a>
+
+---

@@ -19,7 +19,7 @@ tags:
 
 ###CG on Live
 #### V2
-<a href="http://i.imgur.com/uyOGlwH.jpg"><img src="http://i.imgur.com/uyOGlwH.jpg"/></a>
+<a href="http://i.imgur.com/2xcBbRi.jpg"><img src="http://i.imgur.com/2xcBbRi.jpg"/></a>
 
 #### V1
 <a href="http://i.imgur.com/vvHv1vx.jpg"><img src="http://i.imgur.com/vvHv1vx.jpg"/></a>

@@ -9,10 +9,19 @@ tags:
 ---
 
 ###Live on Live
+
+#### V2
+<a href="http://i.imgur.com/M1zsBgB.jpg"><img src="http://i.imgur.com/M1zsBgB.jpg"/></a>
+
+#### V1
 <a href="http://i.imgur.com/EshUhUK.jpg"><img src="http://i.imgur.com/EshUhUK.jpg"/></a>
 <a href="http://i.imgur.com/gMKQ1wW.png"><img src="http://i.imgur.com/gMKQ1wW.png"/></a>
 
 ###CG on Live
+#### V2
+<a href="http://i.imgur.com/uyOGlwH.jpg"><img src="http://i.imgur.com/uyOGlwH.jpg"/></a>
+
+#### V1
 <a href="http://i.imgur.com/vvHv1vx.jpg"><img src="http://i.imgur.com/vvHv1vx.jpg"/></a>
 <a href="http://i.imgur.com/nWV0QyU.png"><img src="http://i.imgur.com/nWV0QyU.png"/></a>
 

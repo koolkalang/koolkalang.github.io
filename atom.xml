@@ -4,13 +4,52 @@
  <title>Paolo Usero</title>
  <link href="/atom.xml" rel="self"/>
  <link href="/"/>
- <updated>2014-09-29T00:10:29-04:00</updated>
+ <updated>2014-10-17T14:25:54-04:00</updated>
  <id></id>
  <author>
    <name>Paolo Usero</name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>Project 2 - Composited Videos</title>
+   <link href="/2014/10/17/Project-2---Composited-Videos/"/>
+   <updated>2014-10-17T00:00:00-04:00</updated>
+   <id>/2014/10/17/Project-2---Composited-Videos</id>
+   <content type="html">&lt;h3&gt;Live on Live&lt;/h3&gt;
+
+&lt;p&gt;Seeing Double in the DPA Lab. Original intent was to have multiple mes all in the different stations, but ended up just going with the two. 
+&lt;center&gt;
+&lt;iframe src=&quot;//player.vimeo.com/video/109262554&quot; width=&quot;500&quot; height=&quot;281&quot; frameborder=&quot;0&quot; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt; &lt;p&gt;&lt;a href=&quot;http://vimeo.com/109262554&quot;&gt;liveonlive&lt;/a&gt; from &lt;a href=&quot;http://vimeo.com/usero&quot;&gt;Paolo Usero&lt;/a&gt; on &lt;a href=&quot;https://vimeo.com&quot;&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+&lt;/center&gt;
+&lt;a href=&quot;http://i.imgur.com/q9pbv9N.png&quot;&gt;&lt;img src=&quot;http://i.imgur.com/q9pbv9N.png&quot;/&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3&gt;CG on Live&lt;/h3&gt;
+
+&lt;p&gt;R2D2 goes west. This actually went a lot smoother than I thought it would, since it seems like this had the most moving parts to it.&lt;br&gt;
+1. Generate pointcloud/camera movement in nuke.
+2. Export as fbx files into maya
+3. Generate renders in maya, and read them back into nuke.
+&lt;center&gt;
+&lt;iframe src=&quot;//player.vimeo.com/video/109263249&quot; width=&quot;500&quot; height=&quot;281&quot; frameborder=&quot;0&quot; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt; &lt;p&gt;&lt;a href=&quot;http://vimeo.com/109263249&quot;&gt;cgonlive&lt;/a&gt; from &lt;a href=&quot;http://vimeo.com/usero&quot;&gt;Paolo Usero&lt;/a&gt; on &lt;a href=&quot;https://vimeo.com&quot;&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+&lt;/center&gt;
+&lt;a href=&quot;http://i.imgur.com/y0XhopZ.png&quot;&gt;&lt;img src=&quot;http://i.imgur.com/y0XhopZ.png&quot;/&gt;&lt;/a&gt;
+&lt;a href=&quot;http://i.imgur.com/FAkoq4e.png&quot;&gt;&lt;img src=&quot;http://i.imgur.com/FAkoq4e.png&quot;/&gt;&lt;/a&gt;
+&lt;a href=&quot;http://i.imgur.com/0gOhAjU.png&quot;&gt;&lt;img src=&quot;http://i.imgur.com/0gOhAjU.png&quot;/&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3&gt;Live on CG&lt;/h3&gt;
+
+&lt;p&gt;Dreamcatcher on the bed. The original background is a bighero 6 trailer, which should be coming out soon. What would&amp;#39;ve sold this shot a lot more is if the dreamcatcher&amp;#39;s feathers were slowly moving, and if some of that light on the bed caught on the dreamcatcher.
+&lt;center&gt;
+&lt;iframe src=&quot;//player.vimeo.com/video/109262553&quot; width=&quot;500&quot; height=&quot;281&quot; frameborder=&quot;0&quot; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt; &lt;p&gt;&lt;a href=&quot;http://vimeo.com/109262553&quot;&gt;liveoncg&lt;/a&gt; from &lt;a href=&quot;http://vimeo.com/usero&quot;&gt;Paolo Usero&lt;/a&gt; on &lt;a href=&quot;https://vimeo.com&quot;&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+&lt;/center&gt;
+&lt;a href=&quot;http://i.imgur.com/9nlfklz.png&quot;&gt;&lt;img src=&quot;http://i.imgur.com/9nlfklz.png&quot;/&gt;&lt;/a&gt;
+&lt;a href=&quot;http://i.imgur.com/I3kXfae.jpg&quot;&gt;&lt;img src=&quot;http://i.imgur.com/I3kXfae.jpg&quot;/&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Project 1 - Composited Stills</title>

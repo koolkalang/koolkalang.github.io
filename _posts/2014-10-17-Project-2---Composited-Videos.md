@@ -1,5 +1,12 @@
-Project 2 - Composited Videos
-CPSC8150 compositing nuke maya
+---
+layout: post
+title: Project 2 - Composited Videos
+tags:
+- CPSC8150
+- compositing
+- nuke
+- maya
+---
 
 ###Live on Live
 Seeing Double in the DPA Lab. Original intent was to have multiple mes all in the different stations, but ended up just going with the two. 
@@ -27,3 +34,5 @@ Dreamcatcher on the bed. The original background is a bighero 6 trailer, which s
 </center>
 <a href="http://i.imgur.com/9nlfklz.png"><img src="http://i.imgur.com/9nlfklz.png"/></a>
 <a href="http://i.imgur.com/I3kXfae.jpg"><img src="http://i.imgur.com/I3kXfae.jpg"/></a>
+
+---

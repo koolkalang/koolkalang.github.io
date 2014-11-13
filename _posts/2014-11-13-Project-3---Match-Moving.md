@@ -1,5 +1,12 @@
-Project 3 - Match Moving
-CPSC8150 compositing nuke maya
+---
+layout: post
+title: Project 3 - Match Moving
+tags:
+- CPSC8150
+- compositing
+- nuke
+- maya
+---
 ###Stablization/Tracking
 How did the Storm Trooper get up there?
 Standard Tracking and Stablization.
@@ -21,4 +28,6 @@ Source:</br>
 <a href="http://1.bp.blogspot.com/-C3VpxrZMKE4/UqoAfZdoT1I/AAAAAAAAARM/z_4sgMypgp8/s1600/princess-is-in-another-castle-super-mario-bros.png"><img src="http://1.bp.blogspot.com/-C3VpxrZMKE4/UqoAfZdoT1I/AAAAAAAAARM/z_4sgMypgp8/s1600/princess-is-in-another-castle-super-mario-bros.png"/></a>
 <a href="http://i.imgur.com/IugMobd.png"><img src="http://i.imgur.com/IugMobd.png"/></a>
 <a href="http://i.imgur.com/kJILZt4.png"><img src="http://i.imgur.com/kJILZt4.png"/></a>
+---
+
 ---

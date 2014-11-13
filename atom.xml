@@ -4,13 +4,49 @@
  <title>Paolo Usero</title>
  <link href="/atom.xml" rel="self"/>
  <link href="/"/>
- <updated>2014-10-17T14:25:54-04:00</updated>
+ <updated>2014-11-13T13:05:43-05:00</updated>
  <id></id>
  <author>
    <name>Paolo Usero</name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>Project 3 - Match Moving</title>
+   <link href="/2014/11/13/Project-3---Match-Moving/"/>
+   <updated>2014-11-13T00:00:00-05:00</updated>
+   <id>/2014/11/13/Project-3---Match-Moving</id>
+   <content type="html">&lt;h3&gt;Stablization/Tracking&lt;/h3&gt;
+
+&lt;p&gt;How did the Storm Trooper get up there?
+Standard Tracking and Stablization.
+&lt;center&gt;
+&lt;iframe src=&quot;//player.vimeo.com/video/111757225&quot; width=&quot;500&quot; height=&quot;281&quot; frameborder=&quot;0&quot; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt; &lt;p&gt;&lt;a href=&quot;http://vimeo.com/109262554&quot;&gt;&lt;/a&gt; from &lt;a href=&quot;http://vimeo.com/usero&quot;&gt;Paolo Usero&lt;/a&gt; on &lt;a href=&quot;https://vimeo.com&quot;&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+Source:&lt;/br&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;//www.youtube.com/embed/NHVORVmgAno&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/center&gt;
+&lt;a href=&quot;http://i.imgur.com/ai2NQxo.png&quot;&gt;&lt;img src=&quot;http://i.imgur.com/ai2NQxo.png&quot;/&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3&gt;MatchMove&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Generate pointcloud/camera movement in nuke.&lt;/li&gt;
+&lt;li&gt;Export as fbx files into maya&lt;/li&gt;
+&lt;li&gt;Generate renders in maya, and read them back into nuke.
+&lt;center&gt;
+&lt;iframe src=&quot;//player.vimeo.com/video/111761330&quot; width=&quot;500&quot; height=&quot;281&quot; frameborder=&quot;0&quot; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt; &lt;p&gt;&lt;a href=&quot;http://vimeo.com/109263249&quot;&gt;&lt;/a&gt; from &lt;a href=&quot;http://vimeo.com/usero&quot;&gt;Paolo Usero&lt;/a&gt; on &lt;a href=&quot;https://vimeo.com&quot;&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+&lt;/center&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://1.bp.blogspot.com/-C3VpxrZMKE4/UqoAfZdoT1I/AAAAAAAAARM/z_4sgMypgp8/s1600/princess-is-in-another-castle-super-mario-bros.png&quot;&gt;&lt;img src=&quot;http://1.bp.blogspot.com/-C3VpxrZMKE4/UqoAfZdoT1I/AAAAAAAAARM/z_4sgMypgp8/s1600/princess-is-in-another-castle-super-mario-bros.png&quot;/&gt;&lt;/a&gt;
+&lt;a href=&quot;http://i.imgur.com/IugMobd.png&quot;&gt;&lt;img src=&quot;http://i.imgur.com/IugMobd.png&quot;/&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2&gt;&lt;a href=&quot;http://i.imgur.com/kJILZt4.png&quot;&gt;&lt;img src=&quot;http://i.imgur.com/kJILZt4.png&quot;/&gt;&lt;/a&gt;&lt;/h2&gt;
+
+&lt;hr&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Project 2 - Composited Videos</title>

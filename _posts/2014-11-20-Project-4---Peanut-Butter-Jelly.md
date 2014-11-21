@@ -1,10 +1,5 @@
 ---
 layout: post
-title: ---
-tags:
-- layout:
-- post
----
 title: Project 4 - Peanut Butter Jelly Compositing
 tags:
 - CPSC8150
@@ -12,19 +7,17 @@ tags:
 - nuke
 - maya
 ---
-We took a scene from the ongoing Peanut Butter Jelly project, and did a few tweaks to the scne. 
+We took a scene from the ongoing Peanut Butter Jelly project, and did a few tweaks to the scene. 
 
 1. write out and read back in cachce nodes to speed up node reading.
 2. Get a clearer view of the underwater ocean by reducing the depth blur, and color correcting the elements to look as if the water is shallower. 
 <center>
 <iframe src="//player.vimeo.com/video/112372264" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="http://vimeo.com/109262554"></a> from <a href="http://vimeo.com/usero">Paolo Usero</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 Source:</br>
-<iframe width="560" height="315" src="//www.youtube.com/embed/NHVORVmgAno" frameborder="0" allowfullscreen></iframe>
 </center>
+
 <a href="http://i.imgur.com/HueIeO5.png"><img src="http://i.imgur.com/HueIeO5.png"/></a>
 <a href="http://i.imgur.com/VYt5P9L.png"><img src="http://i.imgur.com/VYt5P9L.png"/></a>
 <a href="http://i.imgur.com/j2CSlIw.png"><img src="http://i.imgur.com/j2CSlIw.png"/></a>
----
-
 
 ---

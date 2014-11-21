@@ -255,6 +255,18 @@
           
         
       
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
 		<br>
             <li class="sidebar-nav-item">
               <a href="/tags/CPSC6040/index.html">CPSC6040</a>
@@ -279,6 +291,72 @@
 
     <div class="content container">
       <div class="posts">
+  
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="/2014/09/23/Project-1---Composited-Stills/">
+        Project 1 - Composited Stills
+      </a>
+    </h1>
+
+    <span class="post-info">23 Sep 2014 
+  	
+	<a class="tag" href="tags/CPSC8150/index.html">CPSC8150</a>
+  	
+	<a class="tag" href="tags/compositing/index.html">compositing</a>
+  	
+	<a class="tag" href="tags/nuke/index.html">nuke</a>
+  	
+	<a class="tag" href="tags/maya/index.html">maya</a>
+  	
+	</span>
+    
+
+    <h3>Live on Live</h3>
+
+<p><a href="http://i.imgur.com/AhmRYWo.jpg"><img src="http://i.imgur.com/AhmRYWo.jpg"/></a>
+<a href="http://i.imgur.com/gMKQ1wW.png"><img src="http://i.imgur.com/gMKQ1wW.png"/></a></p>
+
+<h3>CG on Live</h3>
+
+<p><a href="http://i.imgur.com/uyOGlwH.jpg"><img src="http://i.imgur.com/uyOGlwH.jpg"/></a>
+<a href="http://i.imgur.com/nWV0QyU.png"><img src="http://i.imgur.com/nWV0QyU.png"/></a></p>
+
+<h3>Live on CG</h3>
+
+<p><a href="http://i.imgur.com/CoJv5Aa.jpg"><img src="http://i.imgur.com/CoJv5Aa.jpg"/></a>
+<a href="http://i.imgur.com/TuMZD3l.png"><img src="http://i.imgur.com/TuMZD3l.jpg"/></a>
+<a href="http://i.imgur.com/QkbEcj8.png"><img src="http://i.imgur.com/QkbEcj8.jpg"/></a></p>
+
+<hr>
+
+  </div>
+  
+  
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="/2014/09/20/Test-CPSC8150/">
+        Test CPSC8150
+      </a>
+    </h1>
+
+    <span class="post-info">20 Sep 2014 
+  	
+	<a class="tag" href="tags/CPSC8150/index.html">CPSC8150</a>
+  	
+	<a class="tag" href="tags/compositing/index.html">compositing</a>
+  	
+	</span>
+    
+
+    <p>Testing Compositing page. </p>
+
+<hr>
+
+  </div>
+  
   
   
   <div class="post">
@@ -324,146 +402,6 @@
     
 
     <p>Testing Visual Narrative page.</p>
-
-<hr>
-
-  </div>
-  
-  
-  
-  <div class="post">
-    <h1 class="post-title">
-      <a href="/2014/09/08/C++-Quick-Thoughts/">
-        C++ Quick Thoughts
-      </a>
-    </h1>
-
-    <span class="post-info">08 Sep 2014 
-  	
-	<a class="tag" href="tags/process/index.html">process</a>
-  	
-	<a class="tag" href="tags/c++/index.html">c++</a>
-  	
-	</span>
-    
-
-    <h3>C++</h3>
-
-<ul>
-<li>the <code>delete</code> operator doesn&#39;t actually delete the object - it merely calls the desturctor, and tells the allocator that memory is free.</li>
-<li>For certain functions, apparently <code>Test::helloWorld(test); == test-&gt;helloWorld();</code> is valid, I&#39;ll have to look into this further, not quite sure what implications are for this.</li>
-<li>C++11 - use unique_ptr so that you don&#39;t have to delete afterwards.</li>
-</ul>
-<div class="highlight"><pre><code class="language-c++" data-lang="c++"><span class="cp">#include &lt;iostream&gt;</span>
-<span class="cp">#include &lt;memory&gt;</span>
-
-<span class="k">struct</span> <span class="n">foo</span>
-<span class="p">{</span>
-    <span class="n">foo</span><span class="p">()</span> <span class="p">{</span> <span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&quot;constructing&quot;</span> <span class="o">&lt;&lt;</span> <span class="n">std</span><span class="o">::</span><span class="n">endl</span><span class="p">;</span> <span class="p">}</span>
-    <span class="o">~</span><span class="n">foo</span><span class="p">()</span> <span class="p">{</span> <span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&quot;destructing&quot;</span> <span class="o">&lt;&lt;</span> <span class="n">std</span><span class="o">::</span><span class="n">endl</span><span class="p">;</span> <span class="p">}</span>
-<span class="p">};</span>
-
-<span class="kt">int</span> <span class="nf">main</span><span class="p">()</span>
-<span class="p">{</span>
-    <span class="n">std</span><span class="o">::</span><span class="n">unique_ptr</span><span class="o">&lt;</span><span class="n">foo</span><span class="o">&gt;</span> <span class="n">p</span><span class="p">(</span><span class="k">new</span> <span class="n">foo</span><span class="p">);</span>
-    <span class="c1">// no need to remember to delete p</span>
-    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
-<span class="p">}</span>
-</code></pre></div>
-<ul>
-<li>This really confused me - once you initialize an object that has functions, those functions are slightly independent of the object/class. I&#39;ll have to dig deeper into this, because I am not entirely sure about the specifics. </li>
-</ul>
-<div class="highlight"><pre><code class="language-c++" data-lang="c++"><span class="cp">#include &lt;iostream&gt;</span>
-<span class="cp">#include &lt;functional&gt;</span>
-
-<span class="k">struct</span> <span class="n">Test</span> <span class="p">{</span>
-    <span class="kt">void</span> <span class="n">helloWorld</span><span class="p">()</span> <span class="p">{</span>
-        <span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&quot;Hello, &quot;</span><span class="o">&lt;&lt;</span> <span class="k">this</span><span class="o">-&gt;</span><span class="n">me</span> <span class="o">&lt;&lt;</span> <span class="s">&quot;!&quot;</span> <span class="o">&lt;&lt;</span> <span class="n">std</span><span class="o">::</span><span class="n">endl</span><span class="p">;</span>
-    <span class="p">}</span>
-
-    <span class="n">std</span><span class="o">::</span><span class="n">string</span> <span class="n">me</span> <span class="o">=</span> <span class="s">&quot;World&quot;</span><span class="p">;</span>
-<span class="p">};</span>
-
-<span class="kt">int</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
-    <span class="n">std</span><span class="o">::</span><span class="n">function</span><span class="o">&lt;</span><span class="kt">void</span><span class="p">(</span><span class="n">Test</span> <span class="o">*</span><span class="p">)</span><span class="o">&gt;</span> <span class="n">helloWorld</span> <span class="o">=</span> <span class="o">&amp;</span><span class="n">Test</span><span class="o">::</span><span class="n">helloWorld</span><span class="p">;</span>
-
-    <span class="n">Test</span> <span class="n">test</span><span class="p">;</span>
-    <span class="n">helloWorld</span><span class="p">(</span><span class="o">&amp;</span><span class="n">test</span><span class="p">);</span>
-
-    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
-<span class="p">}</span>
-</code></pre></div>
-<h3>assumptions</h3>
-
-<ul>
-<li>learning about c++ doesn&#39;t mean that work is actually getting done on the project. </li>
-<li>I should probably work on the individual functions separately first, and then refactor them into a class later if I have time.</li>
-<li>I spend 30 minutes researching why git couldn&#39;t connect to github.com, assuming it was a proxy issue. Turns out my laptop wasn&#39;t connected to the internet. Such a smart cookie I am. </li>
-</ul>
-
-<p><br>
-<br></p>
-
-<hr>
-
-  </div>
-  
-  
-  
-  <div class="post">
-    <h1 class="post-title">
-      <a href="/2014/09/04/Random-Ramblings-on-Side-Projects/">
-        Random Ramblings on Side Projects
-      </a>
-    </h1>
-
-    <span class="post-info">04 Sep 2014 
-  	
-	<a class="tag" href="tags/process/index.html">process</a>
-  	
-	<a class="tag" href="tags/cinema4d/index.html">cinema4d</a>
-  	
-	<a class="tag" href="tags/aftereffects/index.html">aftereffects</a>
-  	
-	<a class="tag" href="tags/3d/index.html">3d</a>
-  	
-	<a class="tag" href="tags/2d/index.html">2d</a>
-  	
-	</span>
-    
-
-    <p>This post is really just writing practice, so don&#39;t read into it too much. It&#39;s kind of bland, but you get an idea of what I like in motion design. </p>
-
-<p>I&#39;ve really wanted to sink my teeth into both Cinema4D and After Effects, because the stuff people pump out on them just look visually stunning. Practically speaking, the market is saturated with people who know both programs, and so I&#39;m only wanting to learn both programs because I want to make something like what I&#39;ve been seeing online for the past few years. 
-A few years ago, I stumbled on a video called flickermood that really sparked my interest in this motion design stuff.   </p>
-
-<p><center><iframe width="420" height="315" src="//www.youtube.com/embed/u3kYfeP76hA" frameborder="0" allowfullscreen></iframe></center>  </p>
-
-<p>At the time typography was a big thing, and I hadn&#39;t seen something so fluid and dynamic as that video, since a lot of the typography at the time had clunky animation. Then I found Takuya Hosogane.</p>
-
-<p><center>
-<iframe src="//player.vimeo.com/video/21151968" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="http://vimeo.com/21151968">Takuya Hosogane MotionReel 2011</a> from <a href="http://vimeo.com/hsgn">Takuya Hosogane</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
-</center></p>
-
-<p>I was starting to become aware of Cinemaa4d around this time, and it seemed the people who used to do typography were slowly transitioning towards the &#39;motion design&#39; aesthetic we usually see today, with tons and tons of squares, circles, and triangles. I particularly liked this guy because he blended 2d and 3d so well, as can be seen here:</p>
-
-<p><center>
-<iframe src="//player.vimeo.com/video/8837024" width="500" height="500" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="http://vimeo.com/8837024">Vanishing Point</a> from <a href="http://vimeo.com/hsgn">Takuya Hosogane</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
-</center></p>
-
-<p>e started looking into cinema4d more. I discovered Dave Lewandowski, who worked primarily with cinema4d and worked on features like tron and oblivion. I started to realize how powerful cinema4d really was, because a lot of his 3d work looks visually complex at times, and having played around a bit with cinema4d and its mograph package, it is disgustingly easy compared to all the animating work in maya. </p>
-
-<p><center>
-<iframe src="//player.vimeo.com/video/54551393?title=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="http://vimeo.com/54551393">Flying Lotus &quot;Tiny Tortures&quot; Process montage</a> from <a href="http://vimeo.com/dlew">dlew</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
-</center></p>
-
-<p>I still admire these people to this day, because they have a kind of artistry that doesn&#39;t usually appear in mediocore visual effects.</p>
-
-<p>Even though it&#39;s been years since I first got exposed to them, I&#39;ve barely worked with either program. I dabbled a bit in after effects, but only ever got a super short clip from that. Currently I&#39;m dabbling in cinema4d, and it&#39;s refreshing to be creating something new again. I figure it&#39;s better late than never, and I suppose now is a great time to jump in, especially with the abundance of good tutorials everywhere.  Here&#39;s the clip I made from after effects from a while ago - if I can make something short like this in cinema4d, I think it&#39;ll be worth it.</p>
-
-<p><center>
-<iframe width="560" height="315" src="//www.youtube.com/embed/1K5micMvsSg?list=UUBfwtcQ5JHx7lkORSLKA3Yg" frameborder="0" allowfullscreen></iframe>
-</center></p>
 
 <hr>
 

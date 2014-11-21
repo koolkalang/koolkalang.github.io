@@ -4,13 +4,50 @@
  <title>Paolo Usero</title>
  <link href="/atom.xml" rel="self"/>
  <link href="/"/>
- <updated>2014-11-13T13:05:43-05:00</updated>
+ <updated>2014-11-21T11:14:33-05:00</updated>
  <id></id>
  <author>
    <name>Paolo Usero</name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>Quick Observation</title>
+   <link href="/2014/11/21/Quick-Observation/"/>
+   <updated>2014-11-21T00:00:00-05:00</updated>
+   <id>/2014/11/21/Quick-Observation</id>
+   <content type="html">&lt;p&gt;I think I just recently realized that all of the major successful  bloggers that I follow all have that one similar pattern - they all write. That may be a total coincidence, since there are probably other people who are just as successful but don&amp;#39;t ever put their work out in writing. &lt;/p&gt;
+
+&lt;p&gt;Of course there&amp;#39;s also a good possibility that writing is just another distraction from actually getting work done. Who knows. &lt;/p&gt;
+
+&lt;hr&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Project 4 - Peanut Butter Jelly Compositing</title>
+   <link href="/2014/11/20/Project-4---Peanut-Butter-Jelly/"/>
+   <updated>2014-11-20T00:00:00-05:00</updated>
+   <id>/2014/11/20/Project-4---Peanut-Butter-Jelly</id>
+   <content type="html">&lt;p&gt;We took a scene from the ongoing Peanut Butter Jelly project, and did a few tweaks to the scene. &lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;write out and read back in cachce nodes to speed up node reading.&lt;/li&gt;
+&lt;li&gt;Get a clearer view of the underwater ocean by reducing the depth blur, and color correcting the elements to look as if the water is shallower. 
+&lt;center&gt;
+&lt;iframe src=&quot;//player.vimeo.com/video/112372264&quot; width=&quot;500&quot; height=&quot;281&quot; frameborder=&quot;0&quot; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt; &lt;p&gt;&lt;a href=&quot;http://vimeo.com/109262554&quot;&gt;&lt;/a&gt; from &lt;a href=&quot;http://vimeo.com/usero&quot;&gt;Paolo Usero&lt;/a&gt; on &lt;a href=&quot;https://vimeo.com&quot;&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+Source:&lt;/br&gt;
+&lt;/center&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://i.imgur.com/HueIeO5.png&quot;&gt;&lt;img src=&quot;http://i.imgur.com/HueIeO5.png&quot;/&gt;&lt;/a&gt;
+&lt;a href=&quot;http://i.imgur.com/VYt5P9L.png&quot;&gt;&lt;img src=&quot;http://i.imgur.com/VYt5P9L.png&quot;/&gt;&lt;/a&gt;
+&lt;a href=&quot;http://i.imgur.com/j2CSlIw.png&quot;&gt;&lt;img src=&quot;http://i.imgur.com/j2CSlIw.png&quot;/&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Project 3 - Match Moving</title>

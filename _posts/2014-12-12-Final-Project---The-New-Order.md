@@ -1,5 +1,11 @@
-Final Project - The New Order
-CPSC8150 compositing nuke
+---
+layout: post
+title: Final Project - The New Order
+tags:
+- CPSC8150
+- compositing
+- nuke
+---
 <center>
 <iframe width="560" height="315" src="//www.youtube.com/embed/3klHvJOqDb4" frameborder="0" allowfullscreen></iframe>
 </center>
@@ -28,3 +34,5 @@ I mostly did the scene with the burninng poster, and a good majority of the text
 
 ---
 
+
+---
